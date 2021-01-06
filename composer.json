@@ -1,0 +1,24 @@
+{
+    "name": "webwlsong/php_pddsdk",
+    "description": "This is a pdd php Sdk",
+    "type": "1",
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "php": ">=7.1"
+    },
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "webwlsong",
+            "email": "webwlsong@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "pddsdk\\": "src/pddsdk"
+        }
+    }
+}
